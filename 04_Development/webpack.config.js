@@ -29,6 +29,7 @@ module.exports = {
 		app: './src/index.js',
 		print: './src/print.js'
 	},
+	devtool: 'inline-source-map',
 	plugins: [
 		new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
