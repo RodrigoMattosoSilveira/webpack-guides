@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740160b8-ee24-4aab-b3a0-5bf4448ea9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06_Tree_Shaking/src/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Production/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Production/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Production/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Hot_Module_Replacement/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/05_Hot_Module_Replacement/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Hot_Module_Replacement/src/print.js" beforeDir="false" afterPath="$PROJECT_DIR$/05_Hot_Module_Replacement/src/print.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Hot_Module_Replacement/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/05_Hot_Module_Replacement/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,36 +24,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="10" />
-          <entry key="json" value="4" />
+          <entry key="js" value="14" />
+          <entry key="json" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="10" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="12" />
-          <entry key="js" value="71" />
-          <entry key="json" value="24" />
+          <entry key="js" value="89" />
+          <entry key="json" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="12" />
-          <entry key="JSON" value="24" />
-          <entry key="JavaScript" value="71" />
+          <entry key="JSON" value="26" />
+          <entry key="JavaScript" value="89" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_Tree_Shaking/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -64,10 +63,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_Tree_Shaking/dist/index.html">
+        <entry file="file://$PROJECT_DIR$/07_Production/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_Production/webpack.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07_Production/webpack.prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_Production/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_Production/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -108,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/06_Tree_Shaking/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -126,6 +163,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>+</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -141,6 +183,11 @@
         <option value="$PROJECT_DIR$/06_Tree_Shaking/webpack.config.js" />
         <option value="$PROJECT_DIR$/06_Tree_Shaking/src/index.js" />
         <option value="$PROJECT_DIR$/06_Tree_Shaking/package.json" />
+        <option value="$PROJECT_DIR$/07_Production/webpack.production.js" />
+        <option value="$PROJECT_DIR$/07_Production/webpack.common.js" />
+        <option value="$PROJECT_DIR$/07_Production/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/07_Production/package.json" />
+        <option value="$PROJECT_DIR$/07_Production/webpack.prod.js" />
       </list>
     </option>
   </component>
@@ -159,6 +206,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/05_Hot_Module_Replacement/node_modules" />
     <handled-path value="$PROJECT_DIR$/06_Tree_Shaking/node_modules" />
+    <handled-path value="$PROJECT_DIR$/07_Production/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -168,6 +216,7 @@
       <path value="$PROJECT_DIR$/04_Development/package.json" />
       <path value="$PROJECT_DIR$/05_Hot_Module_Replacement/package.json" />
       <path value="$PROJECT_DIR$/06_Tree_Shaking/package.json" />
+      <path value="$PROJECT_DIR$/07_Production/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
@@ -190,6 +239,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -206,29 +258,7 @@
             <path>
               <item name="webpack-guides" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-guides" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Getting_Started" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-guides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-guides" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Asset_Management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-guides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-guides" type="462c0819:PsiDirectoryNode" />
-              <item name="06_Tree_Shaking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-guides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-guides" type="462c0819:PsiDirectoryNode" />
-              <item name="06_Tree_Shaking" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-guides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-guides" type="462c0819:PsiDirectoryNode" />
-              <item name="06_Tree_Shaking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="07_Production" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +279,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/06_Tree_Shaking/dist/bundle.js" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542903811496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542905269099" />
     <property name="js-tslint-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -332,12 +362,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542839425220</updated>
-      <workItem from="1542839426956" duration="4286000" />
+      <workItem from="1542839426956" duration="5459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4286000" />
+    <option name="totallyTimeSpent" value="5459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-973" y="-1417" width="1696" height="1382" extended-state="0" />
@@ -421,7 +451,7 @@
     <entry file="file://$PROJECT_DIR$/06_Tree_Shaking/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -445,7 +475,7 @@
     <entry file="file://$PROJECT_DIR$/06_Tree_Shaking/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -465,6 +495,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Production/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Production/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Production/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Production/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Production/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
