@@ -23,17 +23,24 @@ import _ from 'lodash';
 import printMe from './print.js';
 
 function component() {
-	let element = document.createElement('div');
-	let btn = document.createElement('button');
+    let element = document.createElement('div');
+    let btn = document.createElement('button');
 
-	element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-	btn.innerHTML = 'Click me and check the console!';
-	btn.onclick = printMe;
+    btn.innerHTML = 'Click me and check the console!';
+    btn.onclick = printMe;
 
-	element.appendChild(btn);
+    element.appendChild(btn);
 
-	return element;
+    return element;
+
+    if (module.hot) {
+        module.hot.accept('./print.js', function () {
+            console.log('Accepting the updated printMe module!');
+            printMe();
+        })
+    }
 }
 
 document.body.appendChild(component());
